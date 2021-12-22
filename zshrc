@@ -16,7 +16,7 @@ RPROMPT='%*'
 
 # Add Locations to $PATH Variable
 # Add Visual Studio Code (code)
-export PATH="$PATH:/usr/local/bin/code"
+export PATH="$PATH:/opt/homebrew/bin/code"
 
 # Write Handy Functions
 function mkcd(){
