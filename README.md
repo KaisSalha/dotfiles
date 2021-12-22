@@ -8,3 +8,4 @@
 - Finder Show Path Bar
 - .zshrc
 - Git config
+- Homebrew installation
