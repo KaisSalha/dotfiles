@@ -19,8 +19,6 @@ brew "nvm"
 brew "python@3.9"
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: true
-# Distributed search & analytics engine
-brew "elastic/tap/elasticsearch-full"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
