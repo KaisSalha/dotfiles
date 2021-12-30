@@ -33,6 +33,8 @@ cask "google-chrome"
 cask "google-drive"
 # Open-source code editor
 cask "visual-studio-code"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "BetterSnapTool", id: 417375580
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
