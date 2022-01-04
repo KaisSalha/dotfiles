@@ -3,6 +3,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -21,8 +23,8 @@ brew "mas"
 brew "nano"
 # Manage multiple Node.js versions
 brew "nvm"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
+# Python version management
+brew "pyenv"
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: true
 # Desktop client for GitHub repositories
@@ -31,6 +33,8 @@ cask "github"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# App to write, plan, collaborate, and get organized
+cask "notion"
 # Team communication and collaboration software
 cask "slack"
 # Open-source code editor
