@@ -1,3 +1,4 @@
+tap "adoptopenjdk/openjdk"
 tap "elastic/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -27,6 +28,10 @@ brew "nvm"
 brew "pyenv"
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: true
+# AdoptOpenJDK OpenJDK (Java) Development Kit
+cask "adoptopenjdk8"
+# Collaborative team software
+cask "figma"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser

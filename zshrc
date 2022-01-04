@@ -4,12 +4,14 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NVM_DIR="$HOME/.nvm"
 export NULLCMD=bat
+export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
 
 # Create Aliases
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='bat <<<${(F)path}'
+alias java8='export JAVA_HOME=$JAVA_8_HOME'
 
 # Customize Prompt(s)
 PROMPT='
