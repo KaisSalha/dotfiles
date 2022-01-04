@@ -25,8 +25,8 @@ brew "nvm"
 brew "python@3.9"
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: true
-# Git client focusing on productivity
-cask "gitkraken"
+# Desktop client for GitHub repositories
+cask "github"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
