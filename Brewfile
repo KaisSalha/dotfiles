@@ -4,6 +4,12 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+# Library for command-line editing
+brew "readline"
+# Command-line interface for SQLite
+brew "sqlite"
+# General-purpose data compression with high compression ratio
+brew "xz"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -24,10 +30,12 @@ brew "mas"
 brew "nano"
 # Manage multiple Node.js versions
 brew "nvm"
-# Python version management
-brew "pyenv"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: true
+# General-purpose lossless data-compression library
+brew "zlib"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk8"
 # Collaborative team software
@@ -38,6 +46,8 @@ cask "github"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Database administration and development tool for PostgreSQL
+cask "navicat-for-postgresql"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 # Team communication and collaboration software
