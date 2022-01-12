@@ -36,6 +36,8 @@ brew "openssl@3"
 brew "redis", restart_service: true
 # General-purpose lossless data-compression library
 brew "zlib"
+# View, create, manipulate, print and manage files in Portable Document Format
+cask "adobe-acrobat-pro"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk8"
 # Collaborative team software
