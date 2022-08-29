@@ -5,6 +5,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NVM_DIR="$HOME/.nvm"
 export NULLCMD=bat
 export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
+export PIPENV_VENV_IN_PROJECT=1
 
 # Create Aliases
 alias ls='exa -laFh --git'
@@ -22,6 +23,11 @@ RPROMPT='%*'
 # Add Locations to $PATH Variable
 # Add Visual Studio Code (code)
 export PATH="$PATH:/opt/homebrew/bin/code"
+
+# Android SDK
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 
 # Write Handy Functions
 function mkcd(){

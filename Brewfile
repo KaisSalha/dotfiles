@@ -4,12 +4,12 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
-# Library for command-line editing
-brew "readline"
 # Command-line interface for SQLite
 brew "sqlite"
 # General-purpose data compression with high compression ratio
 brew "xz"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -32,6 +32,10 @@ brew "nano"
 brew "nvm"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Object-relational database system
+brew "postgresql"
+# Python version management
+brew "pyenv"
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: true
 # General-purpose lossless data-compression library
@@ -59,6 +63,7 @@ cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "BetterSnapTool", id: 417375580
+mas "Hand Mirror", id: 1502839586
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
