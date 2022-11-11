@@ -6,3 +6,9 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+[http]
+	postBuffer = 157286400
+	getBuffer = 157286400
+	version = HTTP/2
+[push]
+	autoSetupRemote = true
