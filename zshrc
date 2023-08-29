@@ -8,14 +8,15 @@ export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
 export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
 export JAVA_HOME=$(/usr/libexec/java_home -v11)
 export PIPENV_VENV_IN_PROJECT=1
+export PIP_GEMFURY_DEPLOY_TOKEN="A8Bbg-4rb9GYVXN1RMD9ljorJC2FJBJeY"
 
 # Create Aliases
 alias ls='exa -laFh --git'
-alias exa='exa -laFh --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='bat <<<${(F)path}'
 alias j8='export JAVA_HOME=$JAVA_8_HOME'
 alias j11='export JAVA_HOME=$JAVA_11_HOME'
+alias localip='ipconfig getifaddr en0'
 
 # Customize Prompt(s)
 PROMPT='
@@ -35,6 +36,9 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
 
+# Add pyenv
+export PATH=$(pyenv root)/shims:$PATH
+
 # Write Handy Functions
 function mkcd(){
 	mkdir -p "$@" && cd "$_";
@@ -44,4 +48,5 @@ function mkcd(){
 
 # Load NVM
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completioneval "$(~/.rbenv/bin/rbenv init - zsh)"
+eval "$(rbenv init -)"
