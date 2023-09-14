@@ -8,7 +8,6 @@ export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
 export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
 export JAVA_HOME=$(/usr/libexec/java_home -v11)
 export PIPENV_VENV_IN_PROJECT=1
-export PIP_GEMFURY_DEPLOY_TOKEN="A8Bbg-4rb9GYVXN1RMD9ljorJC2FJBJeY"
 
 # Create Aliases
 alias ls='exa -laFh --git'
