@@ -30,6 +30,10 @@ RPROMPT='%*'
 export PATH="$PATH:/opt/homebrew/bin/code"
 export PATH="$PATH:/Users/kaissalha/Library/Application Support/pypoetry/venv/bin"
 
+# proto
+export PROTO_HOME="$HOME/.proto";
+export PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$PATH";
+
 # Android SDK
 export REPO_OS_OVERRIDE="macosx"
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk

@@ -77,6 +77,8 @@ brew "gdal"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Popular GNU data compression program
+brew "gzip"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Kubernetes package manager
@@ -101,6 +103,8 @@ brew "nvm"
 brew "openssl@1.1"
 # Python dependency management tool
 brew "pipenv"
+# Pluggable multi-language version manager
+brew "proto"
 # Python version management
 brew "pyenv"
 # Interpreted, interactive, object-oriented programming language
@@ -111,6 +115,8 @@ brew "python@3.9"
 brew "rbenv"
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: true
+# Extraction utility for .zip compressed archives
+brew "unzip"
 # Watch files and take action when they change
 brew "watchman"
 # JavaScript package manager
@@ -123,6 +129,8 @@ cask "adobe-acrobat-pro"
 cask "adobe-acrobat-reader"
 # Tools for building Android applications
 cask "android-studio"
+# Allows connection to a computer remotely
+cask "anydesk"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Voice and text chat software
@@ -137,8 +145,6 @@ cask "github"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
-# Database administration and development tool for PostgreSQL
-cask "navicat-for-postgresql"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # IDE for professional Python development
@@ -155,6 +161,8 @@ cask "steam"
 cask "temurin@17"
 # Open-source code editor
 cask "visual-studio-code"
+# Native desktop client for WhatsApp
+cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
 # OpenJDK distribution from Azul
@@ -168,7 +176,6 @@ mas "Keynote", id: 409183694
 mas "Medis", id: 1579200037
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
 vscode "alexcvzz.vscode-sqlite"
 vscode "alexdima.copy-relative-path"
